@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pig Dice game.</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+   
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row outer">
+        <h1 id="pgh1">Pig dice</h1>
+      </div>
+
+      <div class="container ">
+        <form id="formid">
+          <div class="form-group row">
+            
+            <div class="col-md-3">
+              <input type="text" class="form-control" id="one"placeholder="Enter Name">
+            </div>
+            <div class="col-md-3">
+              <input type="text" name="" class="form-control" id="two" placeholder="Enter Name">
+            </div>
+            <div class="col-md-3 offset-md-2">
+              <button class="btn btn-danger" type="submit">Jump into the game!!!</button>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+      <div class="row game-area" >
+        <div class="panelplayArea" >
+        
+          <div class="col-md-4 pl1">
+          <center>
+            <h1 id="pl1n"></h1>
+            <h2>side <span id="sc1"></span></h2>
+            <h3> round total <span id="tt1"></span></h3>
+            <h1> total <span id="t1"></span></h1>
+            </center>
+          </div>
+
+          <div class="col-md-4 die">
+          <center>
+           <button type="submit" class="btn btn-success btn-block roll">Roll.</button>
+            <img id="dc">
+          </center>
+          <center id="ct">
+            <button type="submit" class="btn btn-info btn-block hold">hold.</button>
+            </center>
+           
+          </div>
+          <div class="col-md-4 pl2">
+           <center>
+            <h1 id="pl2n"></h1>
+            <h2>side <span id="sc2"></span></h2>
+            <h3>Round total <span id="tt2"></span></h3>
+            <h1> total <span id="t2"></span></h1>
+            </center>
+          </div>
+        </div>
+        
+        
+        
+        
+      </div>
+    
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+ body{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.pl1style{
+	background-color: white;
+
+}
+.pl2style{
+	background-color: blue;
+	color: white;
+
+}
+.failure{
+	background-color: red;
+	color: white;
+}
+.game-area{
+    display: none;
+    }
+
+ .container-fluid{
+ 	background-color: black;
+ }
+
+.outer{
+	 background-color: #bb816452; 
+	 height:15vh; 
+	 text-align:center; 
+	 padding-top: 20px;
+}
+#pgh1{
+	font-size: 60px;
+	font-weight: 20px;
+	color: green;
+}
+#one{
+background-color: #FF18D582;
+
+}
+#two{
+	background-color: #ffcb5282;
+}
+.game-area{
+	padding:200px;
+}
+.panelplayArea{
+	height:30vh;
+}
+.pl1{
+	height:30vh;
+
+}
+#dc{
+	 height: 150px;
+	  padding-top: 25px;
+}
+#ct{
+	padding-top:70px;
+}
+.pl2{
+	 height:30vh;
+
+}
