@@ -6,7 +6,7 @@ var Player = function(name,turn){
 };
 
 Player.prototype = {
-   taketurn(){
+   takeTurn(){
     this.turn ? this.turn=false : this.turn=true;
    },
    roll(){
@@ -22,8 +22,6 @@ Player.prototype = {
       this.total =0;
     }
    }
-
- 
 };
 
 $(function(){
@@ -77,8 +75,8 @@ $(function(){
               player1.total = 0;
               $('#tt1').html(player1.total);
               
-              player1.taketurn();
-              player2.taketurn();
+              player1.takeTurn();
+              player2.takeTurn();
               
               // 
             }else{
@@ -113,8 +111,8 @@ $(function(){
           $('.pl2').addClass('failure');
           player2.total = 0;
            $('#tt2').html(player2.total);
-          player2.taketurn();
-          player1.taketurn();
+          player2.takeTurn();
+          player1.takeTurn();
          
           // 
         }else{
@@ -129,13 +127,13 @@ $(function(){
 
   $('.hold').click(function(){
    if(player1.turn == true){
-    player1.taketurn();
-    player2.taketurn();
+    player1.takeTurn();
+    player2.takeTurn();
     player1.addPoints(player1.total);
     $('#t1').html(player1.total);
    }else{
-    player1.taketurn();
-    player2.taketurn();
+    player1.takeTurn();
+    player2.takeTurn();
     player2.addPoints(player2.total);
     $('#t2').html(player2.total);
    }
