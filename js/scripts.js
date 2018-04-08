@@ -26,8 +26,6 @@ Player.prototype = {
  
 };
 
-
-
 $(function(){
  
  var playerOneName;
